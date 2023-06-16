@@ -66,11 +66,14 @@ export default function Home() {
             </li>
           </ul>
 
-          <span href="#" className="nav-link h4 w-100 mb-5">
-            <a href=""><i className="bx bxl-instagram-alt text-white"></i></a>
-            <a href=""><i className="bx bxl-twitter px-2 text-white"></i></a>
-            <a href=""><i className="bx bxl-facebook text-white"></i></a>
-          </span>
+          <div className='card h-100 m-4 notify-card position-relative'>
+            <div className='card-header border-0'>
+              <Image src="/lamp-on.svg" width={24} height={24} alt="Lamp Icon"/>
+            </div>
+            <div className='card-body'>
+
+            </div>
+          </div>
         </div>
       </div>
     </div >

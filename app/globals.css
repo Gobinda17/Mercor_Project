@@ -85,6 +85,20 @@ body {
   margin-left: 0;
 }
 
+.notify-card {
+  border: 0 !important;
+  background-color: #F5F5F5 !important;
+}
+
+.notify-card .card-header {
+  background-color: #C4C4C4 !important;
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  border-radius: 50% !important;
+  left: 35%;
+  top: -32px;
+}
 
 .green-dot::before {
   content: "";
