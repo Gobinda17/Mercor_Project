@@ -1,13 +1,17 @@
 import Image from 'next/image';
+import HeadComponent from './header';
+import Kanban from './kanban';
 
 export default function Home() {
   return (
     <div className='card h-100 main_card'>
-      <div className='card-body p-0'>
+      <div className='card-body p-0 d-flex'>
+
+        {/* Side Navbar */}
         <div className="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
           <ul className="nav flex-column w-100">
             <li className="nav-link nav-brand h3 text-white my-2">
-              <Image src="/logo.svg" width={24} height={24} alert="Logo" />
+              <Image src="/logo.svg" width={24} height={24} alt="Logo" />
               <span className='mx-2'>Project M.</span>
             </li>
             <li href="#" className="nav-link pt-3">
@@ -31,14 +35,14 @@ export default function Home() {
               <span className="mx-2 menu_name">Settings</span>
             </li>
             <li className='d-flex align-items-center justify-content-center'>
-              <hr/>
+              <hr />
             </li>
           </ul>
 
           <ul className='nav side-menu2 flex-column w-100'>
             <li className='nav-link d-flex align-items-center justify-content-between'>
               <span>MY PROJECTS</span>
-              <Image src='/add-square.svg' width={16} height={16} alt="Add Icon"/>
+              <Image src='/add-square.svg' width={16} height={16} alt="Add Icon" />
             </li>
             <li className="mx-2 mt-3 nav-link active green-dot">
               <span className='mx-2 menu_name'>
@@ -66,14 +70,35 @@ export default function Home() {
             </li>
           </ul>
 
-          <div className='card h-100 m-4 notify-card position-relative'>
+          <div className='card h-100 ms-4 me-4 mb-4 notify-card position-relative'>
             <div className='card-header border-0'>
-              <Image src="/lamp-on.svg" width={24} height={24} alt="Lamp Icon"/>
+              <div className='lamp-light'>
+              </div>
+              <Image src="/lamp-on.svg" width={24} height={24} alt="Lamp Icon" />
             </div>
-            <div className='card-body'>
-
+            <div className='card-body mt-3'>
+              <p className='notify-head'>
+                Thoughts Time
+              </p>
+              <p className='notify-body'>
+                We don’t have any notice for you, till then you can share your thoughts with your peers.
+              </p>
+              <button className='btn notify-message'>
+                Write a message
+              </button>
             </div>
           </div>
+        </div>
+        {/* End of Navbar */}
+
+        <div className='w-100'>
+          {/* Header Section */}
+          <HeadComponent></HeadComponent>
+          {/* End of Header Section */}
+
+          {/* Kanban Section */}
+          <Kanban></Kanban>
+          {/* End of Kanban Section */}
         </div>
       </div>
     </div >
