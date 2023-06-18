@@ -8,7 +8,7 @@ export default function Home() {
       <div className='card-body p-0 d-flex'>
 
         {/* Side Navbar */}
-        <div className="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <div className="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column h-100" id="sidebar">
           <ul className="nav flex-column w-100">
             <li className="nav-link nav-brand h3 text-white my-2">
               <Image src="/logo.svg" width={24} height={24} alt="Logo" />

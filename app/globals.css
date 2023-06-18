@@ -78,7 +78,7 @@ body {
   border-radius: 6px;
 }
 
-.side-menu2 .nav-link.active > .menu_name {
+.side-menu2 .nav-link.active>.menu_name {
   color: #0d062d !important;
 }
 
@@ -184,6 +184,23 @@ body {
   border-radius: 7.5px;
   background-color: #76a5ea;
   margin-right: 5px;
+}
+
+.violet-dot::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #5030E5;
+  margin-right: 5px;
+}
+
+.violet-border {
+  background: #800080;
+  border-bottom: 3px solid #5030E5 !important;
 }
 
 .input-group-text {
