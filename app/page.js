@@ -16,36 +16,36 @@ export default function Home() {
                 <span className='mx-2 d-none d-md-block'>Project M.</span>
               </div>
               <a href='#' className='d-none d-md-block'>
-                <Image src="/menu-arrow.svg" width={26} height={20} alt="Menu Icon"></Image>
+                <Image src="/Mercor_project/menu-arrow.svg" width={26} height={20} alt="Menu Icon"></Image>
               </a>
             </li>
             <li href="#" className="nav-link pt-3">
               <a className='d-flex align-items-center' href="#">
-                <Image src="/category.svg" width={24} height={24} alt="Home Icon" />
+                <Image src="/Mercor_project/category.svg" width={24} height={24} alt="Home Icon" />
                 <span className="mx-2 menu_name d-none d-md-block">Home</span>
               </a>
             </li>
             <li href="#" className="nav-link">
               <a className='d-flex align-items-center' href="#">
-                <Image src="/message.svg" width={24} height={24} alt="Message Icon" />
+                <Image src="/Mercor_project/message.svg" width={24} height={24} alt="Message Icon" />
                 <span className="mx-2 menu_name d-none d-md-block">Message</span>
               </a>
             </li>
             <li href="#" className="nav-link">
               <a className='d-flex align-items-center' href="#">
-                <Image src="/task-square.svg" width={24} height={24} alt="Tasks Icon" />
+                <Image src="/Mercor_project/task-square.svg" width={24} height={24} alt="Tasks Icon" />
                 <span className="mx-2 menu_name d-none d-md-block">Tasks</span>
               </a>
             </li>
             <li href="#" className="nav-link">
               <a className='d-flex align-items-center' href="#">
-                <Image src="/profile-2user.svg" width={24} height={24} alt="Members Icon" />
+                <Image src="/Mercor_project/profile-2user.svg" width={24} height={24} alt="Members Icon" />
                 <span className="mx-2 menu_name d-none d-md-block">Members</span>
               </a>
             </li>
             <li href="#" className="nav-link pb-3">
               <a className='d-flex align-items-center' href="#">
-                <Image src="/setting-2.svg" width={24} height={24} alt="Settings Icon" />
+                <Image src="/Mercor_project/setting-2.svg" width={24} height={24} alt="Settings Icon" />
                 <span className="mx-2 menu_name d-none d-md-block">Settings</span>
               </a>
             </li>
@@ -57,7 +57,7 @@ export default function Home() {
           <ul className='nav side-menu2 flex-column w-100 d-none d-md-flex'>
             <li className='nav-link d-flex align-items-center justify-content-between'>
               <span>MY PROJECTS</span>
-              <Image src='/add-square.svg' width={16} height={16} alt="Add Icon" />
+              <Image src='/Mercor_project/add-square.svg' width={16} height={16} alt="Add Icon" />
             </li>
             <li className="mx-2 mt-3 nav-link active green-dot">
               <span className='mx-2 menu_name'>
@@ -89,7 +89,7 @@ export default function Home() {
             <div className='card-header border-0'>
               <div className='lamp-light'>
               </div>
-              <Image src="/lamp-on.svg" width={24} height={24} alt="Lamp Icon" />
+              <Image src="/Mercor_project/lamp-on.svg" width={24} height={24} alt="Lamp Icon" />
             </div>
             <div className='card-body mt-3'>
               <p className='notify-head'>

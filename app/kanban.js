@@ -29,17 +29,17 @@ export default function Kanban() {
                     <h1 className={styles.kanbanHeader}>Mobile App</h1>
                     <div className='d-flex gap-3'>
                         <a href='#'>
-                            <Image src="/arrow-square-up.svg" width={30} height={30} alt='Edit Icon'></Image>
+                            <Image src="/Mercor_project/arrow-square-up.svg" width={30} height={30} alt='Edit Icon'></Image>
                         </a>
                         <a href='#'>
-                            <Image src="/Group-626.svg" width={30} height={30} alt='Group Icon'></Image>
+                            <Image src="/Mercor_project/Group-626.svg" width={30} height={30} alt='Group Icon'></Image>
                         </a>
                     </div>
                 </div>
 
                 <div className='d-flex align-items-center gap-2'>
                     <a href='#'>
-                        <Image src="/add-square-blue.svg" width={18} height={18} alt='Add Icon'></Image>
+                        <Image src="/Mercor_project/add-square-blue.svg" width={18} height={18} alt='Add Icon'></Image>
                     </a>
                     <p className={styles.inviteTitle}>
                         Invite
@@ -60,7 +60,7 @@ export default function Kanban() {
                 <div className='d-flex gap-3'>
                     <div className="btn-group">
                         <button type="button" className={`${styles.filterBtn} btn dropdown-toggle`} data-bs-toggle="dropdown" aria-expanded="false">
-                            <Image src="/filter.svg" width={16} height={16} alt='Filter Icon'></Image>
+                            <Image src="/Mercor_project/filter.svg" width={16} height={16} alt='Filter Icon'></Image>
                             <span className='m-2'>Filter</span>
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
@@ -71,7 +71,7 @@ export default function Kanban() {
                     </div>
                     <div className="btn-group">
                         <button type="button" className={`${styles.filterBtn} btn dropdown-toggle`} data-bs-toggle="dropdown" aria-expanded="false">
-                            <Image src="/calendar.svg" width={16} height={16} alt='Calendar Icon'></Image>
+                            <Image src="/Mercor_project/calendar.svg" width={16} height={16} alt='Calendar Icon'></Image>
                             <span className='m-2'>Today</span>
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
@@ -85,7 +85,7 @@ export default function Kanban() {
                 <div className='d-flex gap-3'>
                     <div className="btn-group">
                         <button type="button" className={`${styles.filterBtn} btn dropdown-toggle`} data-bs-toggle="dropdown" aria-expanded="false">
-                            <Image src="/profile-3user.svg" width={16} height={16} alt='Share Icon'></Image>
+                            <Image src="/Mercor_project/profile-3user.svg" width={16} height={16} alt='Share Icon'></Image>
                             <span className='m-2'>Share</span>
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
@@ -97,12 +97,12 @@ export default function Kanban() {
                     <hr className={styles.line} />
                     <div className="btn-group">
                         <button type="button" className={`${styles.gridView} btn`}>
-                            <Image src="/pause.svg" width={20} height={20} alt='Pause Icon'></Image>
+                            <Image src="/Mercor_project/pause.svg" width={20} height={20} alt='Pause Icon'></Image>
                         </button>
                     </div>
                     <div className="btn-group">
                         <button type="button" className="btn">
-                            <Image src="/menu.svg" width={20} height={20} alt='Menu Icon'></Image>
+                            <Image src="/Mercor_project/menu.svg" width={20} height={20} alt='Menu Icon'></Image>
                         </button>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center'>
                                             <a href="#">
-                                                <Image src="/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
+                                                <Image src="/Mercor_project/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
                                             </a>
                                         </div>
                                     </div>
@@ -153,11 +153,11 @@ export default function Kanban() {
                                                                 </div>
                                                                 <div className='d-flex align-items-center gap-3'>
                                                                     <a href="#">
-                                                                        <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                                        <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                                         <span className='ps-2'>12 Comments</span>
                                                                     </a>
                                                                     <a href="#">
-                                                                        <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                                        <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                                         <span className='ps-2'>0 files</span>
                                                                     </a>
                                                                 </div>
@@ -184,11 +184,11 @@ export default function Kanban() {
                                                             </div>
                                                             <div className='d-flex align-items-center gap-3'>
                                                                 <a href="#">
-                                                                    <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                                    <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                                     <span className='ps-2'>12 Comments</span>
                                                                 </a>
                                                                 <a href="#">
-                                                                    <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                                    <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                                     <span className='ps-2'>0 files</span>
                                                                 </a>
                                                             </div>
@@ -213,11 +213,11 @@ export default function Kanban() {
                                                             </div>
                                                             <div className='d-flex align-items-center gap-3'>
                                                                 <a href="#">
-                                                                    <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                                    <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                                     <span className='ps-2'>12 Comments</span>
                                                                 </a>
                                                                 <a href="#">
-                                                                    <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                                    <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                                     <span className='ps-2'>0 files</span>
                                                                 </a>
                                                             </div>
@@ -245,7 +245,7 @@ export default function Kanban() {
                                 </div>
                                 <div className='d-flex align-items-center'>
                                     <a href="#">
-                                        <Image src="/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
+                                        <Image src="/Mercor_project/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
                                     </a>
                                 </div>
                             </div>
@@ -271,11 +271,11 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
-                                                <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>12 Comments</span>
                                             </a>
                                             <a href="#">
-                                                <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>0 files</span>
                                             </a>
                                         </div>
@@ -304,11 +304,11 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
-                                                <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>12 Comments</span>
                                             </a>
                                             <a href="#">
-                                                <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>0 files</span>
                                             </a>
                                         </div>
@@ -334,11 +334,11 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
-                                                <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>12 Comments</span>
                                             </a>
                                             <a href="#">
-                                                <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>0 files</span>
                                             </a>
                                         </div>
@@ -361,7 +361,7 @@ export default function Kanban() {
                                 </div>
                                 <div className='d-flex align-items-center'>
                                     <a href="#">
-                                        <Image src="/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
+                                        <Image src="/Mercor_project/add-square-blue.svg" width={24} height={24} alt='Add Icon'></Image>
                                     </a>
                                 </div>
                             </div>
@@ -387,11 +387,11 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
-                                                <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>12 Comments</span>
                                             </a>
                                             <a href="#">
-                                                <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>0 files</span>
                                             </a>
                                         </div>
@@ -417,11 +417,11 @@ export default function Kanban() {
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
-                                                <Image src="/message.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/message.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>12 Comments</span>
                                             </a>
                                             <a href="#">
-                                                <Image src="/files.svg" width={16} height={16} alt="Message Icon" />
+                                                <Image src="/Mercor_project/files.svg" width={16} height={16} alt="Message Icon" />
                                                 <span className='ps-2'>0 files</span>
                                             </a>
                                         </div>
