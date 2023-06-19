@@ -5,7 +5,12 @@ export default function HeadComponent() {
     return (
         <div className={styles.header}>
             <div className="d-flex align-items-center justify-content-between">
-                <div className={styles.searchField}>
+                <div className='d-flex d-xl-none'>
+                    <a href="#">
+                        <Image src="/search-normal.svg" width="22" height="22" alt="Search Icon"></Image>
+                    </a>
+                </div>
+                <div className={`${styles.searchField} d-none d-xl-block`}>
                     <div className={styles.inputGroup}>
                         <span className="input-group-text" id="addon-wrapping">
                             <Image src="/search-normal.svg" width="22" height="22" alt="Search Icon"></Image>
@@ -14,12 +19,12 @@ export default function HeadComponent() {
                     </div>
                 </div>
                 <div className="d-flex gap-1">
-                    <div className='d-flex align-items-center gap-4 pe-5'>
+                    <div className={`${styles.pe_sm_1} d-flex align-items-center gap-4 pe-5`}>
                         <Image src="/calendar-2.svg" width={24} height={24} alt="Calendar Icon"></Image>
                         <Image src="/message-question.svg" width={24} height={24} alt="Message Icon"></Image>
                         <Image src="/notification.svg" width={24} height={24} alt="Notification Icon"></Image>
                     </div>
-                    <div className='d-flex flex-column align-self-center'>
+                    <div className='d-none d-md-flex flex-column align-self-center'>
                         <p className={styles.profileName}>
                             Anima Agarwal
                         </p>

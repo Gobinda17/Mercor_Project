@@ -24,7 +24,7 @@
 }
 
 .input:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .input::placeholder {
@@ -45,26 +45,43 @@
   bottom: 12px;
 }
 
-.profileName  {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.36px;
-    text-align: right;
-    color: #0D062D;
-    margin-bottom: 0 !important;
+.profileName {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: right;
+  color: #0d062d;
+  margin-bottom: 0 !important;
 }
 
 .profileAdd {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.94px;
-    text-align: right;
-    color: #787486;
-    margin-top: 4px;
-    margin-bottom: 0 !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: right;
+  color: #787486;
+  margin-top: 4px;
+  margin-bottom: 0 !important;
 }
 
 .profilePic {
-    border-radius: 50%;
-    object-fit: cover;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pe_sm_1 {
+    padding-right: 0.25rem !important;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 812px) {
+  .header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

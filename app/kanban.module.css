@@ -2,6 +2,8 @@
   padding-left: 48.5px;
   padding-right: 50.5px;
   padding-top: 41px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .kanbanHeader {
@@ -80,10 +82,11 @@
 }
 
 .kanabanMainCard {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 16px 16px 0px 0px;
   border: 0 !important;
   padding: 20px;
+  height: 84vh;
 }
 
 .kanabanMainCardHeader {
@@ -104,8 +107,8 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #E0E0E0;
-  color: #625F6D;
+  background-color: #e0e0e0;
+  color: #625f6d;
   font-size: 12px;
   font-weight: 500;
   line-height: 14.52px;
@@ -131,8 +134,8 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  color: #D58D49;
-  padding: 4px;
+  color: #d58d49;
+  padding: 10px;
 }
 
 .kanabanHighPriority {
@@ -145,8 +148,22 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  color: #D8727D;
-  padding: 4px;
+  color: #d8727d;
+  padding: 10px;
+}
+
+.kanabanDonePriority {
+  background: rgba(131, 194, 157, 0.2);
+  border-radius: 4px;
+  margin-bottom: 0 !important;
+}
+
+.kanabanDonePriority span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #68b266;
+  padding: 10px;
 }
 
 .kanbancard a {
@@ -154,14 +171,14 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
-  color: #0D062D;
+  color: #0d062d;
 }
 
 .kanbancard h2 {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #0D062D;
+  color: #0d062d;
   margin-top: 10px;
 }
 
@@ -195,4 +212,50 @@
   font-size: 12px;
   line-height: 15px;
   color: #787486;
+}
+
+.kanbanPic {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.kanbanDonePic {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .kanbanWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .profilePic {
+    left: 0;
+  }
+  .profilePic:nth-child(2) {
+    left: -22px;
+  }
+
+  .profilePic:nth-child(3) {
+    left: -42px;
+  }
+
+  .profilePic:nth-child(4) {
+    left: -62px;
+  }
+  .profilePic:nth-child(5) {
+    left: -74px;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 812px)  {
+  .kanbanWrapper {
+    height: 200vh;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

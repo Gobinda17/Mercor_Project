@@ -10,36 +10,51 @@ export default function Home() {
         {/* Side Navbar */}
         <div className="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column h-100" id="sidebar">
           <ul className="nav flex-column w-100">
-            <li className="nav-link nav-brand h3 text-white my-2">
-              <Image src="/logo.svg" width={24} height={24} alt="Logo" />
-              <span className='mx-2'>Project M.</span>
+            <li className="nav-link nav-brand h3 text-white my-2 d-flex align-items-center justify-content-between w-100">
+              <div className='d-flex align-items-center'>
+                <Image src="/logo.svg" width={24} height={24} alt="Logo" />
+                <span className='mx-2 d-none d-md-block'>Project M.</span>
+              </div>
+              <a href='#' className='d-none d-md-block'>
+                <Image src="/menu-arrow.svg" width={26} height={20} alt="Menu Icon"></Image>
+              </a>
             </li>
             <li href="#" className="nav-link pt-3">
-              <Image src="/category.svg" width={24} height={24} alt="Home Icon" />
-              <span className="mx-2 menu_name">Home</span>
+              <a className='d-flex align-items-center' href="#">
+                <Image src="/category.svg" width={24} height={24} alt="Home Icon" />
+                <span className="mx-2 menu_name d-none d-md-block">Home</span>
+              </a>
             </li>
             <li href="#" className="nav-link">
-              <Image src="/message.svg" width={24} height={24} alt="Message Icon" />
-              <span className="mx-2 menu_name">Message</span>
+              <a className='d-flex align-items-center' href="#">
+                <Image src="/message.svg" width={24} height={24} alt="Message Icon" />
+                <span className="mx-2 menu_name d-none d-md-block">Message</span>
+              </a>
             </li>
             <li href="#" className="nav-link">
-              <Image src="/task-square.svg" width={24} height={24} alt="Tasks Icon" />
-              <span className="mx-2 menu_name">Tasks</span>
+              <a className='d-flex align-items-center' href="#">
+                <Image src="/task-square.svg" width={24} height={24} alt="Tasks Icon" />
+                <span className="mx-2 menu_name d-none d-md-block">Tasks</span>
+              </a>
             </li>
             <li href="#" className="nav-link">
-              <Image src="/profile-2user.svg" width={24} height={24} alt="Members Icon" />
-              <span className="mx-2 menu_name">Members</span>
+              <a className='d-flex align-items-center' href="#">
+                <Image src="/profile-2user.svg" width={24} height={24} alt="Members Icon" />
+                <span className="mx-2 menu_name d-none d-md-block">Members</span>
+              </a>
             </li>
             <li href="#" className="nav-link pb-3">
-              <Image src="/setting-2.svg" width={24} height={24} alt="Settings Icon" />
-              <span className="mx-2 menu_name">Settings</span>
+              <a className='d-flex align-items-center' href="#">
+                <Image src="/setting-2.svg" width={24} height={24} alt="Settings Icon" />
+                <span className="mx-2 menu_name d-none d-md-block">Settings</span>
+              </a>
             </li>
             <li className='d-flex align-items-center justify-content-center'>
               <hr />
             </li>
           </ul>
 
-          <ul className='nav side-menu2 flex-column w-100'>
+          <ul className='nav side-menu2 flex-column w-100 d-none d-md-flex'>
             <li className='nav-link d-flex align-items-center justify-content-between'>
               <span>MY PROJECTS</span>
               <Image src='/add-square.svg' width={16} height={16} alt="Add Icon" />
@@ -70,7 +85,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <div className='card h-100 ms-4 me-4 mb-4 notify-card position-relative'>
+          <div className='card h-100 ms-md-3 me-md-3 ms-4 me-4 mb-4 notify-card position-relative d-none d-md-flex'>
             <div className='card-header border-0'>
               <div className='lamp-light'>
               </div>
@@ -91,14 +106,16 @@ export default function Home() {
         </div>
         {/* End of Navbar */}
 
-        <div className='w-100'>
+        <div className='w-100 component-body'>
           {/* Header Section */}
           <HeadComponent></HeadComponent>
           {/* End of Header Section */}
 
-          {/* Kanban Section */}
-          <Kanban></Kanban>
-          {/* End of Kanban Section */}
+          <div className='container-fluid p-0'>
+            {/* Kanban Section */}
+            <Kanban ></Kanban>
+            {/* End of Kanban Section */}
+          </div>
         </div>
       </div>
     </div >

@@ -18,9 +18,12 @@ body {
   box-shadow: 0px 44px 84px 6px rgba(216, 217, 219, 1);
 }
 
+.component-body {
+  border-left: 1px solid #dbdbdb;
+}
+
 /* Side Navbar */
 #sidebar {
-  border-right: 1px solid #dbdbdb;
   width: 16%;
 }
 
@@ -78,7 +81,7 @@ body {
   border-radius: 6px;
 }
 
-.side-menu2 .nav-link.active>.menu_name {
+.side-menu2 .nav-link.active > .menu_name {
   color: #0d062d !important;
 }
 
@@ -194,13 +197,35 @@ body {
   -moz-border-radius: 7.5px;
   -webkit-border-radius: 7.5px;
   border-radius: 7.5px;
-  background-color: #5030E5;
+  background-color: #5030e5;
+  margin-right: 5px;
+}
+
+.green-dot::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #8bc48a;
   margin-right: 5px;
 }
 
 .violet-border {
   background: #800080;
-  border-bottom: 3px solid #5030E5 !important;
+  border-bottom: 3px solid #5030e5 !important;
+}
+
+.orange-border {
+  background: #800080;
+  border-bottom: 3px solid #ffa500 !important;
+}
+
+.green-border {
+  background: #800080;
+  border-bottom: 3px solid #8bc48a !important;
 }
 
 .input-group-text {
@@ -218,4 +243,50 @@ body {
   height: 18px;
   display: inline-flex !important;
   align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  #sidebar hr {
+    width: 100%;
+  }
+  .component-body {
+    overflow: scroll;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 812px) {
+  #sidebar {
+    width: 45%;
+  }
+
+  .nav-brand span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 813px) and (max-width: 1023px) {
+  #sidebar {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  #sidebar {
+    width: 28%;
+  }
+  #sidebar hr {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1111px) and (max-width: 1196px) {
+  #sidebar {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+  #sidebar {
+    width: 20%;
+  }
 }
