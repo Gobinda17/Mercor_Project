@@ -45,10 +45,10 @@ export default function Kanban() {
                         Invite
                     </p>
                     <div className="d-flex align-items-center">
-                        <Image className={styles.profilePic} src="/profile.jpeg" width={50} height={50} alt='Profile Pic'></Image>
-                        <Image className={styles.profilePic} src="/profile-pic2.jpg" width={50} height={50} alt='Profile Pic'></Image>
-                        <Image className={styles.profilePic} src="/profile.jpeg" width={50} height={50} alt='Profile Pic'></Image>
-                        <Image className={styles.profilePic} src="/profile-pic2.jpg" width={50} height={50} alt='Profile Pic'></Image>
+                        <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={50} height={50} alt='Profile Pic'></Image>
+                        <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={50} height={50} alt='Profile Pic'></Image>
+                        <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={50} height={50} alt='Profile Pic'></Image>
+                        <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={50} height={50} alt='Profile Pic'></Image>
                         <div className={styles.profilePic}>
                             <span>+2</span>
                         </div>
@@ -147,9 +147,9 @@ export default function Kanban() {
                                                             </div>
                                                             <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                                                 <div className="d-flex align-items-center">
-                                                                    <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                    <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                    <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                    <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                    <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                    <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                                                 </div>
                                                                 <div className='d-flex align-items-center gap-3'>
                                                                     <a href="#">
@@ -178,9 +178,9 @@ export default function Kanban() {
                                                         </div>
                                                         <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                                             <div className="d-flex align-items-center">
-                                                                <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                                             </div>
                                                             <div className='d-flex align-items-center gap-3'>
                                                                 <a href="#">
@@ -207,9 +207,9 @@ export default function Kanban() {
                                                         </div>
                                                         <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                                             <div className="d-flex align-items-center">
-                                                                <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                                                <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                                                <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                                             </div>
                                                             <div className='d-flex align-items-center gap-3'>
                                                                 <a href="#">
@@ -260,14 +260,14 @@ export default function Kanban() {
                                         </div>
                                         <h2>Onboard Illustrations</h2>
                                         <div className='d-flex align-items-center gap-3'>
-                                            <Image className={styles.kanbanPic} src="/illustration.png" width={100} height={100} alt="Kanban Picture"></Image>
+                                            <Image className={styles.kanbanPic} src="/Mercor_project/illustration.png" width={100} height={100} alt="Kanban Picture"></Image>
                                         </div>
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                         <div className="d-flex align-items-center">
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
@@ -292,15 +292,15 @@ export default function Kanban() {
                                         </div>
                                         <h2>Moodboard</h2>
                                         <div className='d-flex align-items-center flex-column flex-lg-row gap-3'>
-                                            <Image className={styles.kanbanPic} src="/pic-1.png" width={100} height={100} alt="Kanban Picture"></Image>
-                                            <Image className={styles.kanbanPic} src="/pic-2.png" width={100} height={100} alt="Kanban Picture"></Image>
+                                            <Image className={styles.kanbanPic} src="/Mercor_project/pic-1.png" width={100} height={100} alt="Kanban Picture"></Image>
+                                            <Image className={styles.kanbanPic} src="/Mercor_project/pic-2.png" width={100} height={100} alt="Kanban Picture"></Image>
                                         </div>
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                         <div className="d-flex align-items-center">
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
@@ -328,9 +328,9 @@ export default function Kanban() {
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                         <div className="d-flex align-items-center">
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
@@ -381,9 +381,9 @@ export default function Kanban() {
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                         <div className="d-flex align-items-center">
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">
@@ -411,9 +411,9 @@ export default function Kanban() {
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
                                         <div className="d-flex align-items-center">
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
-                                            <Image className={styles.profilePic} src="/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile-pic2.jpg" width={30} height={30} alt='Profile Pic'></Image>
+                                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={30} height={30} alt='Profile Pic'></Image>
                                         </div>
                                         <div className='d-flex align-items-center gap-3'>
                                             <a href="#">

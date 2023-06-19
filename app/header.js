@@ -34,7 +34,7 @@ export default function HeadComponent() {
                     </div>
                     <div className="btn-group">
                         <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            <Image className={styles.profilePic} src="/profile.jpeg" width={38} height={38} alt='Profile Pic'></Image>
+                            <Image className={styles.profilePic} src="/Mercor_project/profile.jpeg" width={38} height={38} alt='Profile Pic'></Image>
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                             <li><button className="dropdown-item" type="button">Action</button></li>
