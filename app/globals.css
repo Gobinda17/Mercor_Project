@@ -238,7 +238,7 @@ body {
 
 .dropdown-toggle::after {
   border: 0 !important;
-  background-image: url("/arrow-down.svg");
+  background-image: url("/Mercor_project/arrow-down.svg");
   width: 18px;
   height: 18px;
   display: inline-flex !important;

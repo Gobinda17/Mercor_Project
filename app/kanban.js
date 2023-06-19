@@ -376,7 +376,7 @@ export default function Kanban() {
                                         </div>
                                         <h2>Onboard Illustrations</h2>
                                         <div className='d-flex align-items-center gap-3'>
-                                            <Image className={styles.kanbanDonePic} src="/pic-3.jpg" width={100} height={250} alt="Kanban Picture"></Image>
+                                            <Image className={styles.kanbanDonePic} src="/Mercor_project/pic-3.jpg" width={100} height={250} alt="Kanban Picture"></Image>
                                         </div>
                                     </div>
                                     <div className={`${styles.kanbanCardFooter} card-footer d-flex flex-column gap-2 flex-md-row align-items-md-center flex-md-wrap justify-content-between`}>
