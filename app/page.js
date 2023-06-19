@@ -12,7 +12,7 @@ export default function Home() {
           <ul className="nav flex-column w-100">
             <li className="nav-link nav-brand h3 text-white my-2 d-flex align-items-center justify-content-between w-100">
               <div className='d-flex align-items-center'>
-                <Image src="/logo.svg" width={24} height={24} alt="Logo" />
+                <Image src="/Mercor_project/logo.svg" width={24} height={24} alt="Logo" />
                 <span className='mx-2 d-none d-md-block'>Project M.</span>
               </div>
               <a href='#' className='d-none d-md-block'>
